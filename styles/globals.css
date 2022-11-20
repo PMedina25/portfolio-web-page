@@ -14,7 +14,12 @@
     h6 {
         @apply text-xl; /* font size: 1.25rem */
         @apply leading-6; /* line height: 1.25rem */
-        @apply font-medium; /* font weight: 700 */
+        @apply font-medium; /* font weight: 500 */
+    }
+    a {
+        @apply text-sm; /* font size: 0.875rem */
+        @apply leading-7; /* line height: 1.5rem */
+        @apply font-medium; /* font weight: 500 */
     }
 }
 
