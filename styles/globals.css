@@ -1,3 +1,24 @@
 @tailwind base;
+
+@layer base {
+    h2 {
+        @apply text-6xl; /* font size: 3.75rem */
+        @apply leading-5; /* line height: 1.25rem */
+        @apply font-bold; /* font weight: 700 */
+    }
+    h4 {
+        @apply text-3xl; /* font size: 2rem */
+        @apply leading-5; /* line height: 1.25rem */
+        @apply font-bold; /* font weight: 700 */
+    }
+    h6 {
+        @apply text-xl; /* font size: 1.25rem */
+        @apply leading-6; /* line height: 1.25rem */
+        @apply font-medium; /* font weight: 700 */
+    }
+}
+
+
 @tailwind components;
 @tailwind utilities;
+
