@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 @tailwind base;
 
 @layer base {
+    body {
+        @apply text-7xl;
+        @apply font-inter;
+        @apply bg-darker-blue;
+        @apply text-white;
+    }
     h2 {
         @apply text-6xl; /* font size: 3.75rem */
+        @apply leading-5; /* line height: 1.25rem */
+        @apply font-bold; /* font weight: 700 */
+    }
+    h3 {
+        @apply text-5xl; /* font size: 2.25rem */
         @apply leading-5; /* line height: 1.25rem */
         @apply font-bold; /* font weight: 700 */
     }
@@ -26,4 +39,5 @@
 
 @tailwind components;
 @tailwind utilities;
+
 
