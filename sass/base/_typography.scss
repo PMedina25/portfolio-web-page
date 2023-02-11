@@ -1,0 +1,15 @@
+h1 {
+  font-size: rem(36);
+  font-weight: $f-extra-bold;
+  line-height: rem(40);
+}
+
+h2 {
+  @extend h1;
+}
+
+h3 {
+  @extend h1;
+  font-size: rem(30);
+  line-height: rem(36);
+}

@@ -1,0 +1,23 @@
+.colors {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: rem(10);
+
+  @include breakpoint(mobile) {
+    flex-direction: row;
+  }
+
+  &__item {
+    width: rem(100);
+    height: rem(100);
+
+    &--light-blue {
+      background-color: $c-light-blue;
+    }
+
+    &--dark-blue {
+      background-color: $c-dark-blue;
+    }
+  }
+}
