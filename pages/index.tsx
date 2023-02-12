@@ -16,9 +16,15 @@ const Home = () => {
       <Menu />
 
       <Layout>
-        <div className="hero-wrapper">
-          <h1>Hi, I&apos;m Pablo, Frontend Engineer</h1>
-        </div>
+        <section className="hero">
+          <h1 className="hero__title ">
+            Hi, I&apos;m Pablo, Frontend Engineer
+          </h1>
+          <p className="hero__description mt-6">
+            Frontend Developer specialized in the development of SPAs using
+            React, always following best practices and clean code.
+          </p>
+        </section>
       </Layout>
     </>
   );

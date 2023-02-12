@@ -4,6 +4,7 @@
 @import "./base/typography";
 
 // Scss modules
+@import "../pages/Home.module";
 @import "../pages/uikit/Uikit.module";
 @import "../components/Menu/Menu.module";
 @import "../components/Menu/HamburgerBox/HamburgerBox.module";
