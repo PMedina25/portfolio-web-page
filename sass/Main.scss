@@ -4,6 +4,6 @@
 @import "./base/typography";
 
 // Scss modules
-@import "../pages/uikit/Uikit.module.scss";
-@import "../components/Menu/Menu.module.scss";
-@import "../components/Menu/HamburgerBox/HamburgerBox.module.scss";
+@import "../pages/uikit/Uikit.module";
+@import "../components/Menu/Menu.module";
+@import "../components/Menu/HamburgerBox/HamburgerBox.module";
