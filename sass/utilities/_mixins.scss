@@ -165,3 +165,11 @@ $rules: (
 @each $item in $rules {
   @include generate(nth($item, 1), nth($item, 2));
 }
+
+@mixin translateX($x) {
+  -webkit-transform: translateX($x);
+  -moz-transform: translateX($x);
+  -ms-transform: translateX($x);
+  -o-transform: translateX($x);
+  transform: translateX($x);
+}
