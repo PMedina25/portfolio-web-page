@@ -1,5 +1,7 @@
 .hamburger-box {
   width: rem(30);
+  z-index: 1;
+  cursor: pointer;
 
   &__inner {
     height: rem(2);

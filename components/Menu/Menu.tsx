@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import HamburgerBox from "./HamburgerBox/HamburgerBox";
 
 interface MenuItems {
@@ -27,10 +29,16 @@ const MENU_ITEMS_PRIMARY = [
 const MENU_ITEMS_SECONDARY = [];
 
 const Menu = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleHamburgerBoxClick = () => {
+    setIsMenuOpen((prevState): boolean => !prevState);
+  };
+
   return (
     <nav className="menu">
-      <HamburgerBox />
-      <ul className="menu__list">
+      <HamburgerBox onClick={handleHamburgerBoxClick} />
+      <ul className={`menu__list ${isMenuOpen ? "menu__list--open" : ""}`}>
         {MENU_ITEMS_PRIMARY.map(({ name, link }: MenuItems) => (
           <li key={name} className="menu__list--item">
             <a href={link} dangerouslySetInnerHTML={{ __html: name }} />
