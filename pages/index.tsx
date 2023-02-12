@@ -17,7 +17,7 @@ const Home = () => {
 
       <Layout>
         <div className="hero-wrapper">
-          <h1>Hi, I'm Pablo, Frontend Engineer</h1>
+          <h1>Hi, I&apos;m Pablo, Frontend Engineer</h1>
         </div>
       </Layout>
     </>
