@@ -1,5 +1,4 @@
 .menu {
-  position: relative;
   width: 100%;
   height: rem(60);
   background-color: $c-dark-blue;
@@ -29,10 +28,11 @@
     background-color: $c-dark-blue;
     font-size: rem(24);
     transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-    @include translateX(100%);
+
+    @include translate-x(100%);
 
     &--open {
-      @include translateX(0);
+      @include translate-x(0);
     }
 
     @include breakpoint(mobile) {
@@ -44,7 +44,8 @@
       align-items: center;
       position: relative;
       font-size: rem(14);
-      @include translateX(0);
+
+      @include translate-x(0);
 
       &--item {
         display: flex;
@@ -65,7 +66,7 @@
             color: $c-light-blue;
 
             .item-text {
-              @include translateX(5px);
+              @include translate-x(5px);
             }
           }
         }

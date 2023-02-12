@@ -1,0 +1,17 @@
+{
+  "extends": ["stylelint-prettier/recommended", "stylelint-config-standard-scss"],
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": true,
+    "value-list-comma-newline-after": null,
+    "scss/no-global-function-names": null,
+    "scss/at-extend-no-missing-placeholder": null,
+    "declaration-colon-newline-after": null,
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+    "comment-empty-line-before": [ "always", {
+      "ignore": ["stylelint-commands", "after-comment"]
+    } ],
+    "unit-allowed-list": ["em", "rem", "%", "s", "px", "vh", "deg", "vw", "fr", "ch", "ms"]
+  }
+}
