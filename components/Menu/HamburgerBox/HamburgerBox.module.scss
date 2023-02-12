@@ -1,0 +1,15 @@
+.hamburger-box {
+  width: rem(30);
+
+  &__inner {
+    height: rem(2);
+    width: 100%;
+    background-color: $c-light-blue;
+    margin-bottom: rem(8);
+    border-radius: rem(4);
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
