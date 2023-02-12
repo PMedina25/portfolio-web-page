@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 import HamburgerBox from "./HamburgerBox/HamburgerBox";
 
@@ -25,8 +25,6 @@ const MENU_ITEMS_PRIMARY = [
     link: "",
   },
 ];
-
-const MENU_ITEMS_SECONDARY = [];
 
 const Menu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
