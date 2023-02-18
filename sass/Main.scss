@@ -2,10 +2,12 @@
 @import "./utilities/variables";
 @import "./utilities/mixins";
 @import "./base/typography";
+@import "./layout/layout";
 
 // Scss modules
 @import "../pages/Home.module";
 @import "../pages/uikit/Uikit.module";
 @import "../components/Menu/Menu.module";
 @import "../components/Menu/HamburgerBox/HamburgerBox.module";
-@import "../layout/Layout/Layout.module";
+@import "../components/CodeEditor/CodeEditor.module";
+@import "../components/Dot/Dot.module";

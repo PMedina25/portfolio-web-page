@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import Menu from "../components/Menu/Menu";
-import Layout from "../layout/Layout";
+import CodeEditor from "../components/CodeEditor/CodeEditor";
 
 const Home = () => {
   return (
@@ -15,17 +15,22 @@ const Home = () => {
 
       <Menu />
 
-      <Layout>
-        <section className="hero">
-          <h1 className="hero__title ">
-            Hi, I&apos;m Pablo, Frontend Engineer
-          </h1>
-          <p className="hero__description mt-6">
-            Frontend Developer specialized in the development of SPAs using
-            React, always following best practices and clean code.
-          </p>
-        </section>
-      </Layout>
+      <main className="wrapper">
+        <div className="wrapper__container">
+          <section className="hero">
+            <h1 className="hero__title ">
+              Hi, I&apos;m Pablo, Frontend Engineer
+            </h1>
+            <p className="hero__description">
+              Frontend Developer specialized in the development of SPAs using
+              React, always following best practices and clean code.
+            </p>
+            <div className="code-container">
+              <CodeEditor />
+            </div>
+          </section>
+        </div>
+      </main>
     </>
   );
 };
