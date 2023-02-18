@@ -13,7 +13,9 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Menu />
+      <header>
+        <Menu />
+      </header>
 
       <main className="wrapper">
         <div className="wrapper__container">
