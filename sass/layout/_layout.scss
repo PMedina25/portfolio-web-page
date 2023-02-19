@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100%;
+  background-color: $c-dark-blue;
+  text-align: center;
+
+  &__container {
+    max-width: rem(1260);
+    padding-left: rem(16);
+    padding-right: rem(16);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

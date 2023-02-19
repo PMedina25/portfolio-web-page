@@ -1,0 +1,28 @@
+.hero {
+  padding-top: rem(80);
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/banner-dark-background.webp");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  @include breakpoint(mobile) {
+    padding-top: rem(128);
+  }
+
+  &__description {
+    max-width: rem(768);
+    margin: rem(24) auto rem(80) auto;
+  }
+}
+
+.code-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include breakpoint(desktop) {
+    width: 70%;
+  }
+}
