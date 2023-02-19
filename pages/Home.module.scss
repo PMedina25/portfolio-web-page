@@ -23,7 +23,6 @@
   margin-right: auto;
 
   @include breakpoint(desktop) {
-    width: 50%;
-    margin-right: 0;
+    width: 70%;
   }
 }
