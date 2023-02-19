@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch",
+    "test": "jest --watch a",
     "lint": "next lint && npx stylelint '**/*.scss'",
     "lint:js": "next lint",
     "lint:scss": "npx stylelint '**/*.scss'",
