@@ -1,8 +1,11 @@
 import React from "react";
 import Head from "next/head";
 
+import { EXPERIENCE_TABS } from "../constants";
+
 import Menu from "../components/Menu/Menu";
 import CodeEditor from "../components/CodeEditor/CodeEditor";
+import Tabs from "../components/Tabs/Tabs";
 
 const Home = () => {
   return (
@@ -30,6 +33,10 @@ const Home = () => {
             <div className="code-container">
               <CodeEditor />
             </div>
+          </section>
+          <section className="experience-section">
+            <h2>Experience</h2>
+            <Tabs tabs={EXPERIENCE_TABS} />
           </section>
         </div>
       </main>
