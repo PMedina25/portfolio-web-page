@@ -26,3 +26,17 @@
     width: 70%;
   }
 }
+
+.experience {
+  padding-top: rem(80);
+  text-align: left;
+  color: $c-white;
+
+  &__title {
+    margin-top: rem(32);
+    margin-bottom: rem(16);
+    font-size: inherit;
+    font-weight: 600;
+    color: $c-purple;
+  }
+}

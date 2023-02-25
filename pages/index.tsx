@@ -34,8 +34,8 @@ const Home = () => {
               <CodeEditor />
             </div>
           </section>
-          <section className="experience-section">
-            <h2>Experience</h2>
+          <section className="experience">
+            <h2 className="experience__title">Experience</h2>
             <Tabs tabs={EXPERIENCE_TABS} />
           </section>
         </div>

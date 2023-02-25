@@ -20,10 +20,10 @@ const Tabs = ({ tabs }: TabsProps) => {
   };
 
   return (
-    <div>
-      <TabNav activeTab={activeTab} onTabClick={onTabClick} tabs={tabs} />
+    <>
       <TabContent activeTab={activeTab} tabs={tabs} />
-    </div>
+      <TabNav activeTab={activeTab} onTabClick={onTabClick} tabs={tabs} />
+    </>
   );
 };
 

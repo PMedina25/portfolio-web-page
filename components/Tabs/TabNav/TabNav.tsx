@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Tab } from "../Tabs";
+import TabNavItem from "./TabNavItem/TabNavItem";
 
 interface TabNavProps {
   activeTab: number;
@@ -12,13 +13,12 @@ const TabNav = ({ activeTab, onTabClick, tabs }: TabNavProps) => {
   return (
     <div className="tab-nav">
       {tabs.map((tab, index) => (
-        <button
+        <TabNavItem
           key={tab.label}
-          className={activeTab === index ? "active" : ""}
+          label={tab.label}
+          isActiveTab={activeTab === index}
           onClick={() => onTabClick(index)}
-        >
-          {tab.label}
-        </button>
+        />
       ))}
     </div>
   );
