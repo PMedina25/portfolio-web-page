@@ -3,12 +3,19 @@ import React from "react";
 import { Tab } from "../Tabs";
 
 interface TabContentProps {
-  activeTab: number;
-  tabs: Tab[];
+  isActiveTab: boolean;
+  tabContent: React.ReactElement;
 }
 
-const TabContent = ({ activeTab, tabs }: TabContentProps) => {
-  return <div className="tab-content">{tabs[activeTab].content}</div>;
+const TabContent = ({ isActiveTab, tabContent }: TabContentProps) => {
+  return (
+    <div
+      className={`tab-content${isActiveTab ? " tab-content--active" : ""}`}
+      aria-hidden={!isActiveTab}
+    >
+      {tabContent}
+    </div>
+  );
 };
 
 export default TabContent;

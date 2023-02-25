@@ -3,7 +3,7 @@
  */
 export const EXPERIENCE_TABS = [
   {
-    label: "Tab 1",
+    label: "Kairós DS",
     content: (
       <>
         <h3 className="tab-content__title">Frontend Engineer</h3>
@@ -18,7 +18,7 @@ export const EXPERIENCE_TABS = [
     ),
   },
   {
-    label: "Tab 2",
+    label: "The Cocktail",
     content: (
       <>
         <h3 className="tab-content__title">React Frontend Developer</h3>
@@ -33,7 +33,7 @@ export const EXPERIENCE_TABS = [
     ),
   },
   {
-    label: "Tab 3",
+    label: "TTI Norte",
     content: (
       <>
         <h3 className="tab-content__title">IoT Engineer</h3>
@@ -48,7 +48,7 @@ export const EXPERIENCE_TABS = [
     ),
   },
   {
-    label: "Tab 4",
+    label: "DEPT",
     content: (
       <>
         <h3 className="tab-content__title">iOS Developer</h3>

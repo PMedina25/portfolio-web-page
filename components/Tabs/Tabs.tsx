@@ -20,10 +20,16 @@ const Tabs = ({ tabs }: TabsProps) => {
   };
 
   return (
-    <>
-      <TabContent activeTab={activeTab} tabs={tabs} />
+    <div className="tabs">
+      {tabs.map((tab, index) => (
+        <TabContent
+          key={tab.label}
+          isActiveTab={activeTab === index}
+          tabContent={tab.content}
+        />
+      ))}
       <TabNav activeTab={activeTab} onTabClick={onTabClick} tabs={tabs} />
-    </>
+    </div>
   );
 };
 

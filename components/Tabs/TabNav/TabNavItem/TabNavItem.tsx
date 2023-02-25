@@ -9,7 +9,7 @@ interface TabNavItemProps {
 const TabNavItem = ({ label, isActiveTab, onClick }: TabNavItemProps) => {
   return (
     <button
-      className={`tab-nav-item${isActiveTab ? " active" : ""}`}
+      className={`tab-nav-item${isActiveTab ? " tab-nav-item--active" : ""}`}
       onClick={onClick}
     >
       {label}

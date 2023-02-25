@@ -1,3 +1,11 @@
 .tab-nav-item {
-  color: $c-white;
+  padding: rem(16);
+  font-weight: $f-extra-medium;
+  font-size: rem(16);
+  color: $c-grey;
+  cursor: pointer;
+
+  &--active {
+    color: $c-purple;
+  }
 }
