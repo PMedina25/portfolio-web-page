@@ -10,8 +10,17 @@
     transform: translate(0);
   }
 
+  &__title {
+    font-size: rem(24);
+    font-weight: 600;
+    color: $c-purple;
+  }
+
   &__description {
-    margin-top: rem(16);
     margin-bottom: rem(40);
+
+    @include breakpoint(desktop) {
+      margin-bottom: 0;
+    }
   }
 }

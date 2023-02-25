@@ -1,8 +1,9 @@
 .tab-nav-item {
-  padding: rem(16);
   font-weight: $f-extra-medium;
   font-size: rem(16);
   color: $c-grey;
+  white-space: nowrap;
+  text-align: left;
   cursor: pointer;
 
   &--active {

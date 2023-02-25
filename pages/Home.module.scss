@@ -28,15 +28,12 @@
 }
 
 .experience {
-  padding-top: rem(80);
+  padding-top: rem(160);
   text-align: left;
   color: $c-white;
 
   &__title {
-    margin-top: rem(32);
-    margin-bottom: rem(16);
-    font-size: inherit;
-    font-weight: 600;
-    color: $c-purple;
+    text-align: center;
+    margin-bottom: rem(80);
   }
 }

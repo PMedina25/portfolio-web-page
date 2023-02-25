@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Tab } from "../Tabs";
-
 interface TabContentProps {
   isActiveTab: boolean;
   tabContent: React.ReactElement;

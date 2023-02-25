@@ -1,2 +1,13 @@
 .tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: rem(40);
+
+  @include breakpoint(desktop) {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: rem(80);
+    text-align: justify;
+  }
 }

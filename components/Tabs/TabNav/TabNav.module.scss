@@ -1,2 +1,12 @@
 .tab-nav {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: rem(24);
+  overflow-x: auto;
+
+  @include breakpoint(desktop) {
+    flex-direction: column;
+    overflow-x: unset;
+  }
 }
