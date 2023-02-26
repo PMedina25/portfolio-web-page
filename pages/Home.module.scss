@@ -26,3 +26,17 @@
     width: 70%;
   }
 }
+
+.experience {
+  padding-top: rem(160);
+  text-align: left;
+  color: $c-white;
+  background-image: url("/banner-purple-background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__title {
+    text-align: center;
+    margin-bottom: rem(80);
+  }
+}

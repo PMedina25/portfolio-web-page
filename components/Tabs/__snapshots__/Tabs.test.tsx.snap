@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs component renders correctly (match snapshot) 1`] = `
+<div
+  className="tabs"
+>
+  <div
+    className="tab-nav"
+  >
+    <button
+      className="tab-nav-item tab-nav-item--active"
+      onClick={[Function]}
+    >
+      Tab 1
+    </button>
+    <button
+      className="tab-nav-item"
+      onClick={[Function]}
+    >
+      Tab 2
+    </button>
+  </div>
+  <div
+    aria-hidden={false}
+    className="tab-content tab-content--active"
+  >
+    <div>
+      Content for Tab 1
+    </div>
+  </div>
+  <div
+    aria-hidden={true}
+    className="tab-content"
+  >
+    <div>
+      Content for Tab 2
+    </div>
+  </div>
+</div>
+`;
