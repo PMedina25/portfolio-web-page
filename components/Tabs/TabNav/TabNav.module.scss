@@ -4,9 +4,5 @@
   flex-direction: row;
   gap: rem(24);
   overflow-x: auto;
-
-  @include breakpoint(desktop) {
-    flex-direction: column;
-    overflow-x: unset;
-  }
+  margin-bottom: rem(40);
 }

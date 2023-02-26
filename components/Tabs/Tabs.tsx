@@ -21,6 +21,7 @@ const Tabs = ({ tabs }: TabsProps) => {
 
   return (
     <div className="tabs">
+      <TabNav activeTab={activeTab} onTabClick={onTabClick} tabs={tabs} />
       {tabs.map((tab, index) => (
         <TabContent
           key={tab.label}
@@ -28,7 +29,6 @@ const Tabs = ({ tabs }: TabsProps) => {
           tabContent={tab.content}
         />
       ))}
-      <TabNav activeTab={activeTab} onTabClick={onTabClick} tabs={tabs} />
     </div>
   );
 };
