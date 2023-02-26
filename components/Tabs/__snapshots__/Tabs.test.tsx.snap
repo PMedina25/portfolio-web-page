@@ -5,22 +5,6 @@ exports[`Tabs component renders correctly (match snapshot) 1`] = `
   className="tabs"
 >
   <div
-    aria-hidden={false}
-    className="tab-content tab-content--active"
-  >
-    <div>
-      Content for Tab 1
-    </div>
-  </div>
-  <div
-    aria-hidden={true}
-    className="tab-content"
-  >
-    <div>
-      Content for Tab 2
-    </div>
-  </div>
-  <div
     className="tab-nav"
   >
     <button
@@ -35,6 +19,22 @@ exports[`Tabs component renders correctly (match snapshot) 1`] = `
     >
       Tab 2
     </button>
+  </div>
+  <div
+    aria-hidden={false}
+    className="tab-content tab-content--active"
+  >
+    <div>
+      Content for Tab 1
+    </div>
+  </div>
+  <div
+    aria-hidden={true}
+    className="tab-content"
+  >
+    <div>
+      Content for Tab 2
+    </div>
   </div>
 </div>
 `;
